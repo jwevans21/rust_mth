@@ -1,0 +1,21 @@
+[package]
+name = "rust_mth"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0 OR MIT"
+
+authors = ["Jaocb Evans <jacob@jwevans.dev>"]
+
+repository = "https://github.com/jwevans21/rust_mth"
+readme = "README.md"
+description = "A simple math library for rust"
+categories = ["mathematics", "science", "no-std"]
+
+include = ["/src", "LICENSE-APACHE", "LICENSE-MIT"]
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--html-in-header", "katex-header.html"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
